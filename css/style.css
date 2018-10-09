@@ -1,0 +1,310 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+  
+   
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    flex: 1;
+    margin: 0px;
+}
+
+nav>ul li a
+{
+    display: block;
+
+    text-decoration: none;
+    list-style: none;
+   color: black;
+  padding: 15px;
+}
+
+nav>ul li a:hover{
+   border-bottom: 2px solid black;
+  
+}
+
+.active{
+    border-bottom: 2px solid black;
+}
+
+.col{
+    float: left;
+
+}
+
+.col.half{
+    width: 50%;
+}
+
+.col.third{
+    width: 20%;
+}
+
+
+.col.thirdt{
+    width: 33%;
+   
+}
+
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.right{
+   margin-left: 55px;
+}
+
+.h{
+    margin-left: 50px;
+    font-family: 'Monotype Corsiva';
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner{
+    background:
+    /* linear-gradient(
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.3)), */
+    url('../img/bgg.jpg');
+    background-size:cover;
+height: 90vh;
+display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  font-size: 200%;
+background-attachment: fixed;
+
+
+}
+
+.fin{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)),
+    url('../img/vf.jpg');
+    background-size:cover;
+height: 50vh;
+color: white;
+  
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  font-size: 150%;
+background-attachment: fixed;
+}
+
+.cass{
+    font-family: Monotype Corsiva;
+}
+
+.seg{
+    font-family: Monotype Corsiva;
+}
+
+.nospace{
+    padding: 0;
+margin: 0;
+}
+
+.btm{
+    display: flex;
+    flex-direction: row;
+}
+
+.bb{
+    border: 1px solid black;
+    padding: 13px;
+    border-radius: 100rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 70%;
+   
+    transition:  background .3s ease-in;
+}
+
+.bb:hover{
+    background: black;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.article{
+    height: 40vh;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.mar{
+    margin-top: 60px;
+}
+
+.main{
+    background: rgb(238, 235, 235);
+    height: 100vh;
+}
+
+.card{
+    background: white;
+margin: 70px;
+padding: 5px;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.pp{
+    text-align: center;
+}
+
+
+.ll{
+    background: black;
+    color: white;
+    padding: 13px;
+    border-radius: 100rem;
+    padding-left: 60px;
+    padding-right: 60px;
+  
+   
+    text-decoration: none;
+    font-size: 70%;
+   
+    transition:  background .3s ease-in;
+}
+
+.ll:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+
+.marw{
+    padding: 30px;
+}
+
+
+
+.ii{
+border: 1px solid white;
+    color: white;
+    padding: 13px;
+    border-radius: 100rem;
+    padding-left: 60px;
+    padding-right: 60px;
+  background: transparent;
+   
+    text-decoration: none;
+    font-size: 70%;
+   margin: 20px;
+    transition:  background .3s ease-in;
+}
+
+.ii:hover{
+    color: black;
+    background: white;
+}
+
+.fb{
+    background: rgb(20, 20, 148);
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+   
+}
+
+
+.tw{
+    background: rgb(16, 132, 226);
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.ins{
+    background: rgb(224, 166, 4);
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.gp{
+    background: rgb(179, 7, 7);
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+.lp{
+    background: rgb(3, 3, 95);
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.pin{
+    background: rgb(231, 35, 0);
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.icon{
+    height: 30vh;
+   
+   
+}
+
+.link li{
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+
+
+footer{
+ text-align: center;
+}
